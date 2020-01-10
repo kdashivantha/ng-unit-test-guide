@@ -1,0 +1,7 @@
+<span>
+    <strong> {{ contact?.firstName }} |</strong>
+    <a href="mailto"> {{ contact?.email }} </a>
+    <button (click)="this.onAdd.emit(contact.id)">
+        Add to My Contacts
+    </button>
+</span>
